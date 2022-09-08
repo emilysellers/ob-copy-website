@@ -1,0 +1,19 @@
+#hero-section {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 200px;
+}
+
+#hero-image {
+    background-color: thistle;
+}
+
+#hero-video {
+    background-color: bisque;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+}
