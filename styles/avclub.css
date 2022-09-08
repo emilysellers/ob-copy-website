@@ -1,0 +1,75 @@
+#hero-section {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 200px;
+}
+
+header {
+    border-bottom: 10px purple;
+}
+
+#header-links {
+    background-color: black;
+    color: aliceblue;
+    height: 25px;
+    font-family: 'proximaNovaCond', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7% 7%;
+    border-bottom: 10px purple;
+}
+
+/* #header-list li {
+    display: flex;
+}*/
+
+#avclub-bar {
+    background-color: whitesmoke;
+    height: 125px;
+    padding: 5px;
+}
+
+#page-body {
+    background-color: fff;
+    display: grid;
+    height: 650px;
+    grid-template-columns: 50% 50%;
+}
+
+#news-feed-section-lower {
+    background-color: fff;
+    display: grid;
+    height: 285px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.news-article {
+    display: grid;
+    grid-template-rows: 50% 10% 25% 15%;
+    margin: 5px;
+}
+
+#news-feed-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.news-article h3 {
+    font-family: 'proximaNovaCond', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #9408a3;
+}
+
+.news-article h4 {
+    font-family: 'proximaNovaCond', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.news-article h2 {
+    font-family: 'proximaNovaCond', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    color: 222222;
+}
